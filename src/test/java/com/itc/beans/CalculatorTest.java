@@ -25,5 +25,12 @@ public class CalculatorTest {
 		int actual = calc.add(8, 5);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void anotherTest() {
+		int expected = 14;
+		int actual = calc.add(8, 5);
+		assertEquals(expected, actual);
+	}
 
 }
